@@ -29,7 +29,8 @@
     height: 150px;
 
     /*Propiedades FlexBox del item*/
-    flex-grow: 4;
+    /*flex-grow: 4;*/
+    order: -1;/*Order de las cajas */
 }
 
 .flex-item1{
@@ -45,5 +46,8 @@
     height: 350px;
 
     /*Propuedades FlexBox del Item*/
-    flex-grow: 1;
+    /*flex-grow: 1;
+    order: -1;*/
+    align-self: center;
+
 }
