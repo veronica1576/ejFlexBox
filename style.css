@@ -1,0 +1,49 @@
+.flex-container{
+    padding: 0;
+    margin: 0;
+    border: 10px blue double;
+    height: 1000px;
+    
+    display: flex;/*Propiedades Flexbox del contenedor*/
+    /*flex-direction: column-reverse;/*Invierte las box de forma vertical*/
+    flex-direction: row-reverse;/*Invierte las cajas de forma horizontal */
+    /*flex-wrap: wrap-reverse; /*Responsibe: el contenido se adapta a el tamaño de la vista*/
+    flex-wrap: wrap;
+    /*justify-content: space-between;/*Distanciamiento entre las galerias en los controladore*/
+   align-content: stretch;
+   justify-content: stretch;
+
+
+}
+
+.flex-item{
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border: 1px greenyellow solid;
+    height: 150px;
+
+    /*Propiedades FlexBox del item*/
+    flex-grow: 4;
+}
+
+.flex-item1{
+    background: violet;
+    padding: 5px;
+    width: 200px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border: 1px greenyellow solid;
+    height: 350px;
+
+    /*Propuedades FlexBox del Item*/
+    flex-grow: 1;
+}
